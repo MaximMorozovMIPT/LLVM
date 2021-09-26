@@ -11,10 +11,11 @@ struct pair
     int y;
 };
 
-#define WIDTH 30
-#define HEIGHT 30
-#define WIDTH_BUFF 120
-#define HEIGHT_BUFF 120
+#define KOEF 4
+#define WIDTH 100
+#define HEIGHT 100
+#define WIDTH_BUFF 400
+#define HEIGHT_BUFF 400
 
 void GenerateRandomGrid(int grid[][WIDTH]);
 void GenerateEmptyGrid(int grid[][WIDTH]);
